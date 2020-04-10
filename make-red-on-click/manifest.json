@@ -1,0 +1,11 @@
+{
+  "short_name": "Extension-Examples",
+  "name": "Chrome Extension Examples",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Extension Examples"
+  },
+  "permissions": ["activeTab"],
+  "version": "0.1"
+}

@@ -1,0 +1,13 @@
+{
+  "short_name": "Make Sites Red",
+  "name": "Make Sites Red",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["make-red.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["<all_urls>"],
+  "version": "0.1"
+}

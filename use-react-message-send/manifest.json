@@ -1,0 +1,14 @@
+{
+  "short_name": "Use React-Send Message",
+  "name": "Use React-Send Message",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Use React-Send Message"
+  },
+  "version": "0.1"
+}

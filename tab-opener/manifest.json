@@ -1,0 +1,10 @@
+{
+  "short_name": "Open Tabs",
+  "name": "Open Tabs",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open Tabs"
+  },
+  "version": "0.1"
+}
