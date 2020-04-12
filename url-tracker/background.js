@@ -1,4 +1,3 @@
-
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (tab.url.match(/\.goinmo\.com\/projects\/\d+/)) {
     chrome.storage.local.get(['key'], result => {
